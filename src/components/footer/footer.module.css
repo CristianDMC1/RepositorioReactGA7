@@ -1,0 +1,25 @@
+.containerFooter {
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px 0;
+  color: white;
+}
+
+.logo {
+  max-width: 170px;
+  aspect-ratio: calc(1 / 1);
+  overflow: hidden;
+}
+
+.logo > img {
+  width: 100%;
+  object-fit: cover;
+}

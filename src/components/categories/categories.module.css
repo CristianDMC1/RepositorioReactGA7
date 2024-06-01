@@ -1,0 +1,18 @@
+.containerCategories {
+  background-color: black;
+}
+
+.categories {
+  padding: 40px 0;
+  color: var(--title-color);
+}
+
+.sectionCategory {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  color: white;
+}

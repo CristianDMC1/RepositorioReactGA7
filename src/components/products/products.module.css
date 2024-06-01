@@ -1,0 +1,42 @@
+.productSection {
+  color: var(--title-color);
+  padding: 50px 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  gap: 20px;
+}
+
+.productSection > h2 {
+  font-size: 40px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.buttons > button {
+  border: 1px solid var(--title-color);
+  color: var(--title-color);
+  background-color: white;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+.buttons > button:hover {
+  background-color: var(--title-color);
+  color: white;
+}
+
+.containerCards {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

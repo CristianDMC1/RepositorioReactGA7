@@ -1,0 +1,47 @@
+.customContainer {
+  background-color: white;
+}
+
+.header {
+  width: 100%;
+  min-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.cart,
+.logo {
+  width: 70px;
+  aspect-ratio: calc(1 / 1);
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.cart > img,
+.logo > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.cart {
+  width: 30px;
+}

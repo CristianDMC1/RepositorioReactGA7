@@ -1,0 +1,27 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 50px;
+  padding: 20px 0;
+}
+
+.team > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: var(--title-color);
+}
+
+.team > div > h2 {
+  font-size: 40px;
+}
+
+.containerCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+}
